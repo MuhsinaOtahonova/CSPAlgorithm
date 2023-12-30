@@ -1,0 +1,27 @@
+.container {
+    position: relative;
+  }
+  
+  .color-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+  }
+  
+  .red-overlay {
+    background-color: rgba(255, 0, 0, 0.4);
+  }
+  
+  .green-overlay {
+    background-color: rgba(0, 255, 0, 0.4); 
+  }
+  
+  .blue-overlay {
+    background-color: rgba(0, 0, 255, 0.4)
+  }
+  .yellow-overlay {
+    background-color: rgba(255, 255, 0, 0.4)
+  }
